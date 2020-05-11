@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>GoHub</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <img src="../../assets/img/Logo.png" alt="Logo GoHub" class="header__img">
+                </div>
+                <div class="header__burger">
+                   <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__item">
+                        <li><a href="#" class="header__link">Product</a></li>
+                        <li><a href="#" class="header__link">Customers</a> </li>
+                        <li><a href="#" class="header__link">Pricing</a> </li>
+                        <li><a href="#" class="header__link">Docs</a></li>
+                        <li><button class="btn btn--signin">Sign in</button></li>
+                    </ul>              
+                </nav>
+            </div> 
+        </div> 
+    </header>
+    
+    
+    
+    
+    
+    
+    
+    <svg style="display: none;">
+        <symbol id="right-arrow" viewBox="0 0 268.832 268.832">
+            <g>
+                <path
+                    d="M265.171,125.577l-80-80c-4.881-4.881-12.797-4.881-17.678,0c-4.882,4.882-4.882,12.796,0,17.678l58.661,58.661H12.5
+    		    c-6.903,0-12.5,5.597-12.5,12.5c0,6.902,5.597,12.5,12.5,12.5h213.654l-58.659,58.661c-4.882,4.882-4.882,12.796,0,17.678
+    		    c2.44,2.439,5.64,3.661,8.839,3.661s6.398-1.222,8.839-3.661l79.998-80C270.053,138.373,270.053,130.459,265.171,125.577z" />
+            </g>
+        </symbol>
+    
+        <symbol id="in"  viewBox="0 0 260.366 260.366">
+            <g>
+                <path d="M34.703,0.183C15.582,0.183,0.014,15.748,0,34.884C0,54.02,15.568,69.588,34.703,69.588
+    		    c19.128,0,34.688-15.568,34.688-34.704C69.391,15.75,53.83,0.183,34.703,0.183z"/>
+    	        <path d="M60.748,83.531H8.654c-2.478,0-4.488,2.009-4.488,4.489v167.675c0,2.479,2.01,4.488,4.488,4.488h52.093
+    		    c2.479,0,4.489-2.01,4.489-4.488V88.02C65.237,85.539,63.227,83.531,60.748,83.531z"/>
+    	        <path d="M193.924,81.557c-19.064,0-35.817,5.805-46.04,15.271V88.02c0-2.48-2.01-4.489-4.489-4.489H93.424
+    		    c-2.479,0-4.489,2.009-4.489,4.489v167.675c0,2.479,2.01,4.488,4.489,4.488h52.044c2.479,0,4.489-2.01,4.489-4.488v-82.957
+    		    c0-23.802,4.378-38.555,26.227-38.555c21.526,0.026,23.137,15.846,23.137,39.977v81.535c0,2.479,2.01,4.488,4.49,4.488h52.068
+    		    c2.478,0,4.488-2.01,4.488-4.488v-91.977C260.366,125.465,252.814,81.557,193.924,81.557z"/>
+            </g>
+        </symbol>
+    
+        <symbol id="facebook" viewBox="0 0 24 24">
+            <g>
+                <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+            </g>
+        </symbol>
+    
+        <symbol id="twitter" viewBox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+    			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+    			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+    			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+    			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+    			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+    			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+    			C480.224,136.96,497.728,118.496,512,97.248z"/>
+            </g>
+        </symbol>
+    
+        <symbol id="git" viewBox="0 0 512 512">
+            <g>
+                <path d="m256 0c-140.609375 0-256 115.390625-256 256 0 119.988281 84.195312 228.984375 196 256v-84.695312c-11.078125 2.425781-21.273438 2.496093-32.550781-.828126-15.128907-4.464843-27.421875-14.542968-36.546875-29.910156-5.816406-9.8125-16.125-20.453125-26.878906-19.671875l-2.636719-29.882812c23.253906-1.992188 43.371093 14.167969 55.3125 34.230469 5.304687 8.921874 11.410156 14.152343 19.246093 16.464843 7.574219 2.230469 15.707032 1.160157 25.183594-2.1875 2.378906-18.972656 11.070313-26.074219 17.636719-36.074219v-.015624c-66.679687-9.945313-93.253906-45.320313-103.800781-73.242188-13.976563-37.074219-6.476563-83.390625 18.238281-112.660156.480469-.570313 1.347656-2.0625 1.011719-3.105469-11.332032-34.230469 2.476562-62.546875 2.984375-65.550781 13.078125 3.867187 15.203125-3.890625 56.808593 21.386718l7.191407 4.320313c3.007812 1.792969 2.0625.769531 5.070312.542969 17.371094-4.71875 35.683594-7.324219 53.726563-7.558594 18.179687.234375 36.375 2.839844 54.464844 7.75l2.328124.234375c-.203124-.03125.632813-.148437 2.035157-.984375 51.972656-31.480469 50.105469-21.191406 64.042969-25.722656.503906 3.007812 14.128906 31.785156 2.917968 65.582031-1.511718 4.65625 45.058594 47.300781 19.246094 115.753906-10.546875 27.933594-37.117188 63.308594-103.796875 73.253907v.015624c8.546875 13.027344 18.816406 19.957032 18.761719 46.832032v105.722656c111.808594-27.015625 196-136.011719 196-256 .003906-140.609375-115.386719-256-255.996094-256zm0 0"/>
+            </g>
+        </symbol>
+    </svg>
+    
+    
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Balance agility with
+                    stability!</h1>
+                <p class="intro__subtitle">Gohub monitors application stability, so you can make data-driven decisions on
+                    whether you should be building new features, or fixing bugs.</p>
+                <div class="intro__item">
+                    <button class="btn btn--intro" type="button">Get started</button>
+                    <a href="#" class="questions__link ">Questions? Talk to our team
+                        <svg class="questions__icon">
+                            <use xlink:href="#right-arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">        
+                <div class="about__block">      
+                        <h3 class="about__title">Improve the stability of your application</h3>
+                        <h5 class="about__subtitle">Bugsnag monitors application stability, so you can make data-driven decisions on whether you should be building new features, or fixing bugs.</h5>   
+                </div>
+                <div class="about__block">
+                    <div class="about__wrap ">
+                        <img class="about__img" src="assets/img/about/about-block1.png" alt="img">
+                        <h3 class="about__subject">Be visible to “like”</h3>
+                        <p class="about__text">Strengthen your digital visibility in a universe where everyone is interested in travelling and renting gears. We help you build your presence and make you relevant without you having to lift a finger!</p>
+                    </div>
+                </div>
+                <div class="about__block">
+                    <div class="about__wrap">
+                        <img class="about__img" src="assets/img/about/about-block2.png" alt="img">
+                        <h3 class="about__subject">Monitor online</h3>
+                        <p class="about__text">The platform has multiple functionalities and key features. With our intelligent system, you can approve bookings and monitor everything in your business online.</p>
+                    </div>
+                </div>
+                <div class="about__block">
+                    <div class="about__wrap">
+                        <img class="about__img" src="assets/img/about/about-block3.png" alt="img">
+                        <h3 class="about__subject">More income</h3>
+                        <p class="about__text">Being on a digital platform is another sales channel added to strengthen your business. More work, in your hands. With our insights tools, we analyze your gear's performance in any season</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    
+    <section class="services">
+        <div class="container">
+            <div class="services__content">
+                <h2 class="services__title">Proof makes increasing conversions simple</h2>
+                <p class="services__subtitle">Getting a conversion boost didn’t used to be this easy. Luckily, you found Proof. Now you have the tools to let your customer do the selling for you.</p>
+            </div>
+            <div class="services__inner">
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services1.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services2.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services3.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services4.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services5.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services6.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services7.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services8.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services9.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services10.png" alt="img" >
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services11.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+                <div class="services_item">
+                    <img class="services__img" src="assets/img/services/services12.png" alt="img">
+                    <h4 class="services__subject">Higher Conversions</h4>
+                    <p class="services__text">Convert more website visitors into signups and purchases. </p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    
+    
+    <section class="activity">
+        <div class="container">
+            <div class="acrivity__inner">
+                <div class="activity__item">
+                    <h2 class="activity__title">Your safety is always a top priority</h2>
+                    <p class="activity__subtitle">We’re committed to helping drivers and riders get where they want to go with confidence.</p>           
+                    <div class="activity__wrap">
+                        <div class="activity__block">
+                            <p class="activity__subject">Drive</p>
+                             <p class="activity__text">Drive when you want. Find opportunities around you.</p>
+                        </div>
+                         <div class="activity__block">
+                            <p class="activity__subject">Ride</p>
+                             <p class="activity__text">Tap your phone. Get where you're headed.</p>
+                        </div>
+                    </div>
+                    <div class="activity__box">
+                        <button class="btn btn--intro btn--activity" type="button">Get started</button>
+                        <a href="#" class="questions__link questions__link--activity ">Questions? Talk to our team
+                            <svg class="questions__icon">
+                                <use xlink:href="#right-arrow"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="activity__illustration">
+                    <img class="activity__img" src="assets/img/activity/img1.png"  alt="img">
+                </div>
+            </div>
+            <div class="acrivity__inner">
+                <div class="activity__illustration">
+                    <img class="activity__img" src="assets/img/activity/img2.png"  alt="img">
+                </div>
+                <div class="activity__item">
+                    <h2 class="activity__title">Move the way you want Doors are always opening</h2>
+                    <p class="activity__subtitle">Opportunity is everywhere. Get out there and find it with Uber.</p>
+                    <div class="activity__wrap">
+                        <div class="activity__block">
+                            <p class="activity__subject">Drive</p>
+                            <p class="activity__text">Drive when you want. Find opportunities around you.</p>
+                        </div>
+                        <div class="activity__block">
+                            <p class="activity__subject">Ride</p>
+                            <p class="activity__text">Tap your phone. Get where you're headed.</p>
+                        </div>
+                    </div>
+                    <div class="activity__box">
+                        <button class="btn btn--intro btn--activity" type="button">Get started</button>
+                         <a href="#" class="questions__link questions__link--activity">Questions? Talk to our team
+                            <svg class="questions__icon">
+                                <use xlink:href="#right-arrow"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="functional">
+        <div class="container">
+            <h2 class="functional__title">Your finances on auto-pilot</h2>
+            <p class="functional__subtitle">With Qonto, admin hassle are over! Unlimited history, auto-categorised transactions, simplified transfers entries, budgets, history exportable for accounting... and the list goes on!</p>      
+            <div class="functional__inner">
+                <p class="functional__text">Save time</p>
+                <ul class="functicional__list">
+                    <li class="funcitional__item">Intuitive process and simple interface</li>
+                    <li class="funcitional__item">Online and paperless</li>
+                    <li class="funcitional__item">Real-time notifications</li>
+                </ul>
+            </div>
+            <div class="functional__wrap">
+                <div class="functional__inner">
+                    <p class="functional__text">Monitor your expenses</p>
+                    <ul class="functicional__list">
+                        <li class="funcitional__item">Specific access/rights by users</li>
+                        <li class="funcitional__item">Physical and virtual Mastercards with adjustable payment limits</li>
+                        <li class="funcitional__item">Dashboards to follow-up on your expenses</li>
+                    </ul>
+                </div>
+                <div class="functional__inner">
+                    <p class="functional__text">Make accounting easier</p>
+                    <ul class="functicional__list">
+                        <li class="funcitional__item">Unlimited history</li>
+                        <li class="funcitional__item">Read-only access for your accountant.</li>
+                        <li class="funcitional__item">Plug-and-play exports for accounting tools</li>
+                    </ul>
+                </div>           
+            </div>  
+        </div>
+    </section>
+    
+    
+    <section class="started">
+        <div class="container">
+            <div class="started__inner">
+                <div class="started__text">
+                    <p class="started__title">Ready to get started?</p>
+                    <p class="started__subtitle">Get a guided demo with an <span>okr</span> expert.</p>
+                </div>           
+                <div class="started__box">
+                    <form class="started__form" action="https://echo.htmlacademy.ru" method="POST">
+                        <input type="email" id="email" name="email" placeholder="Email adress">
+                        <button type="submit" value="Отправить" class="btn--started"> <span class="btn--search">Get started</span> </button>
+                    </form>
+                </div> 
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__column">
+                    <div class="footer__logo">
+                        <img src="../../assets/img/Logo-bg.png" alt="Logo GoHub" class="footer__img">
+                    </div>
+                    <address class="footer_contacts">
+                        <p class="footer__phone">RU:<a href=”tel:+79998887766”>+7(999)888-77-66</a></p>
+                        <p class="footer__phone">US:<a href="tel:1-847-555-5555">+1-847-555-5555</a></p>
+                        <p><a class="footer__email" href="mailto:info@gohub.ee">info@gohub.ee</a></p>
+                        <div class="socials">
+                            <a class="socials__item" href="#" target="_blank">
+                                <svg class="socials__icon">
+                                    <use xlink:href="#in"></use>
+                                </svg>
+                            </a>
+                            <a class="socials__item" href="#" target="_blank">
+                                <svg class="socials__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="socials__item" href="#" target="_blank">
+                                <svg class="socials__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="socials__item" href="#" target="_blank">
+                                <svg class="socials__icon">
+                                    <use xlink:href="#git"></use>
+                                </svg>
+                            </a>                       
+                        </div>
+                    </address>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer_list">
+                        <li><a  class="footer__link" href="#">About us</a></li>
+                        <li><a  class="footer__link" href="#">Newsroom</a></li>
+                        <li><a  class="footer__link" href="#">Blog</a></li>
+                        <li><a  class="footer__link" href="#">Gohub API</a></li>
+                        <li><a  class="footer__link" href="#">Gift cards</a></li>
+                        <li><a  class="footer__link" href="#">Careers</a></li>
+                        <li><a  class="footer__link" href="#">Gohub vs. driving jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer_list">
+                        <li><a  class="footer__link" href="#">Offerings</a></li>
+                        <li><a  class="footer__link" href="#">Gohub Eats for food delivery</a></li>
+                        <li><a  class="footer__link" href="#">Gohub for Business</a></li>
+                        <li><a  class="footer__link" href="#">Gohub Freight</a></li>
+                        <li><a  class="footer__link" href="#">Gohub Health</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer_list">
+                        <li><a  class="footer__link" href="#">Support</a></li>
+                        <li><a  class="footer__link" href="#">Términos y condiciones</a></li>
+                        <li><a  class="footer__link" href="#">Privacidad</a></li>
+                        <li><a  class="footer__link" href="#">Ayuda</a></li>
+                        <li><a  class="footer__link" href="#">Connect</a></li>
+                    </ul>
+                </div>
+    
+    
+            </div>
+            <div class="footer__content">
+                <div class="footer__copyright">
+                    <p>© 2020 Uber Technologies Inc.</p>
+                </div>
+                <div class="footer__info">
+                    <ul class="footer_items">
+                        <li><a  class="footer__item" href="#">Support</a></li>
+                        <li><a  class="footer__item" href="#">Términos y condiciones</a></li>
+                        <li><a  class="footer__item" href="#">Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+    </footer>
+    <script src="../../assets/js/app.js"></script>
+</body>
+</html>

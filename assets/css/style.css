@@ -593,7 +593,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn--intro {
-    padding: 10px 25px 14px;
+    padding: 20px 25px;
+    line-height: 0;
     margin-right: 35px;
     font-size: 15px;
     text-transform: uppercase;
